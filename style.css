@@ -70,7 +70,7 @@
 .rigth__text{
     padding: 1rem 1.5rem ;
     margin: .6rem;
-    width:90%;
+    width:95%;
     grid-row: 1/2;
     display: grid;
     font-size: 1.3em;
@@ -91,9 +91,35 @@
 }
 
 .form-container{
-width:90%;
+width:100%;
 justify-self: center;
-padding: 1rem 1.5rem ;
+padding: .2rem 2.5rem ;
 margin: .6rem;
 grid-row: 2/3;
+border: solid black 1px;
+}
+
+form{
+    border: solid red 1px;
+    min-height: 250px;
+    padding: 1rem 0;
+}
+
+form ul li{
+    list-style: none;
+
+}
+
+.inputs{
+    display: flex;
+    gap: 9rem;
+}
+
+.inputs .input__left,.input__right>input{
+    width: 100px;
+    border-radius: 10px 0 0 5px
+}
+
+label{
+    font-size: .8rem;
 }
